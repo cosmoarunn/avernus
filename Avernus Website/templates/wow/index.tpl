@@ -232,9 +232,20 @@ document.write(unescape("%3Cscript src='" + envProtoType + "d.envolve.com/env.no
 </div></div></div></div>  --> 
 		
 <div class="module"><div><div><div> 
-						<h3>Top Exp:</h3> 
-						{$serverHighscore[$id]}<br/><br/>
-
+						<h3>Advertising:</h3> 
+						
+<p align="center"><b><font size="7"></font></b></p>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5514201017797989";
+/* avr */
+google_ad_slot = "5440214309";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 </div></div></div></div>  
 		</div> 
 						

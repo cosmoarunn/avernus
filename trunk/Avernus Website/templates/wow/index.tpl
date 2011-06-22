@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl-pl" lang="pl-pl" > 
 <head> 
 
-<meta name="Description" content="Avernus Server is a Open Tibia Server" />
+<meta name="Description" content="Avernus Server is a Open Tibia Server also, Avernus is a server with a good environment and it's currently recruiting staff members. Join Us!" />
 <meta name="Keywords" content="Avernus, server, tibia, ot" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="Distribution" content="Global" />

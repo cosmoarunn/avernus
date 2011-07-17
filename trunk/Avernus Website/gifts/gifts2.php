@@ -52,9 +52,12 @@ if ($_SESSION['logged'] == 1)
 					echo "<div class='toolbar' align='center'>";
 					echo "<a href='".WEBSITE."/index.php/p/v/gifts/admin'>Shop Admin Panel</a>";
 					echo "</div>";
+
 		}
+
 		alert("<b>REMEMBER:</b><br><br>All categories, <b>except for 'Containers with Items'</b>:<br><br>Receiver need to have space on his/her <b>BACKPACK</b> to receive item.");
 		echo '<div id="accordion">';
+
 		$i = 0;
 			foreach($categories as $key=>$value) {
 					echo '<h3><a href="#">'.$categories[$key].'</a></h3>

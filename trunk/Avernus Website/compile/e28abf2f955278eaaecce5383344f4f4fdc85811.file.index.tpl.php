@@ -1,16 +1,16 @@
-<?php /* Smarty version 3.0rc1, created on 2011-06-18 20:11:17
+<?php /* Smarty version 3.0rc1, created on 2011-07-15 05:27:23
          compiled from "templates/wow/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14553677434dfcf855a20677-28355867%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4420414134e1fc1abef0e30-47279300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e28abf2f955278eaaecce5383344f4f4fdc85811' => 
     array (
       0 => 'templates/wow/index.tpl',
-      1 => 1308424274,
+      1 => 1310704039,
     ),
   ),
-  'nocache_hash' => '14553677434dfcf855a20677-28355867',
+  'nocache_hash' => '4420414134e1fc1abef0e30-47279300',
   'function' => 
   array (
   ),
@@ -50,6 +50,20 @@ var envProtoType = (("https:" == document.location.protocol) ? "https://" : "htt
 document.write(unescape("%3Cscript src='" + envProtoType + "d.envolve.com/env.nocache.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <!-- -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24103896-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 	</head> 
 <body>
@@ -256,9 +270,20 @@ if (count($_from) > 0){
 </div></div></div></div>  --> 
 		
 <div class="module"><div><div><div> 
-						<h3>Top Exp:</h3> 
-						<?php echo $_smarty_tpl->getVariable('serverHighscore')->value[$_smarty_tpl->getVariable('id')->value];?>
-<br/><br/>
+						<h3>Advertising:</h3> 
+						
+<p align="center"><b><font size="7"></font></b></p>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5514201017797989";
+/* avr */
+google_ad_slot = "5440214309";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 
 </div></div></div></div>  
 		</div> 
@@ -305,14 +330,34 @@ if (count($_from) > 0){
 				<!-- End Page Content -->
 
 				<div id="footer">
-				<br>Created Modern Aac version by <a href="http://otland.net/members/kavvson/">Kavvson</a> | - Modern AAC Powered by IDE Engine -
+				<br><div>
+<iframe id="f39771f90c935de" class="fb_ltr" scrolling="no" name="f2b7736d2c5b12" style="border: medium none; overflow: hidden; height: 20px; width: 150px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=113869198637480&channel_url=http%3A%2F%2Fstatic.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Dfb2f0d2deaca6%26origin%3Dhttp%253A%252F%252Fdevelopers.facebook.com%252Fff3172128f6a9c%26relation%3Dparent.parent%26transport%3Dpostmessage&font=segoe%20ui&href=www.avernuz.com&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=true&show_faces=false&width=150"></iframe>
+<!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone href="http://www.avernuz.com/"></g:plusone>
+
+
+
+   <a href="http://twitter.com/share" class="twitter-share-button"
+
+      data-url="http://www.avernuz.com"
+
+      data-text="Join Us! Avernuz is a Open Tibia Server & Forum"
+
+      data-count="horizontal">Tweet</a>
+
+</div>
+Created Modern Aac version by <a href="http://otland.net/members/kavvson/">Kavvson</a> | - Modern AAC Powered by IDE Engine -
 <a href="<?php echo $_smarty_tpl->getVariable('path')->value;?>
 /index.php/credits">Credits</a>, 
 			Page rendered in: <?php echo $_smarty_tpl->getVariable('renderTime')->value;?>
-<br />
+ <br />
 					</div>
 			</div>
 		</div>
+
 		<div class="clr"></div>
 		<div id="designed_by">
 			

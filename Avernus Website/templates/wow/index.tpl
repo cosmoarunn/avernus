@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl-pl" lang="pl-pl" > 
 <head> 
 
-<meta name="Description" content="Avernus Server is a Open Tibia Server also, Avernus is a server with a good environment and it's currently recruiting staff members. Join Us!" />
+<meta name="Description" content="Avernus Server is a Open Tibia Server" />
 <meta name="Keywords" content="Avernus, server, tibia, ot" />
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="Distribution" content="Global" />
@@ -27,7 +27,7 @@ document.write(unescape("%3Cscript src='" + envProtoType + "d.envolve.com/env.no
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24103896-1']);
+  _gaq.push(['_setAccount', 'UA-24103896-3']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -37,26 +37,10 @@ document.write(unescape("%3Cscript src='" + envProtoType + "d.envolve.com/env.no
   })();
 
 </script>
-
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24103896-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 
 	</head> 
 <body>
-
 <!-- ESTE ES EL REPRODUCTOR --> 
 <div style="position:fixed; top:-1%; left:0%; width:100%; z-index:99" align="center">
 <iframe src="http://www.tiesto.com/index/music_player" name="topFrame" scrolling="No" width="66%" height="28" noresize="noresize" id="musicplayer" title="musicplayer"></iframe>
@@ -246,6 +230,7 @@ google_ad_height = 600;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+
 </div></div></div></div>  
 		</div> 
 						
@@ -290,12 +275,32 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 				<!-- End Page Content -->
 
 				<div id="footer">
-				<br>Created Modern Aac version by <a href="http://otland.net/members/kavvson/">Kavvson</a> | - Modern AAC Powered by IDE Engine -
+				<br><div>
+<iframe id="f39771f90c935de" class="fb_ltr" scrolling="no" name="f2b7736d2c5b12" style="border: medium none; overflow: hidden; height: 20px; width: 150px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=113869198637480&channel_url=http%3A%2F%2Fstatic.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Dfb2f0d2deaca6%26origin%3Dhttp%253A%252F%252Fdevelopers.facebook.com%252Fff3172128f6a9c%26relation%3Dparent.parent%26transport%3Dpostmessage&font=segoe%20ui&href=www.avernuz.com&layout=button_count&locale=en_US&node_type=link&sdk=joey&send=true&show_faces=false&width=150"></iframe>
+<!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone href="http://www.avernuz.com/"></g:plusone>
+
+
+
+   <a href="http://twitter.com/share" class="twitter-share-button"
+
+      data-url="http://www.avernuz.com"
+
+      data-text="Join Us! Avernuz is a Open Tibia Server & Forum"
+
+      data-count="horizontal">Tweet</a>
+
+</div>
+Created Modern Aac version by <a href="http://otland.net/members/kavvson/">Kavvson</a> | - Modern AAC Powered by IDE Engine -
 <a href="{$path}/index.php/credits">Credits</a>, 
-			Page rendered in: {$renderTime}<br />
+			Page rendered in: {$renderTime} <br />
 					</div>
 			</div>
 		</div>
+
 		<div class="clr"></div>
 		<div id="designed_by">
 			

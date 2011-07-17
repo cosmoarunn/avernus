@@ -7,12 +7,12 @@ $config['website'] = $config['website'] = 'http://'.$_SERVER['HTTP_HOST'] . '/'.
 
 /*Database information*/
 $config['database']['host'] = "127.0.0.1";
-$config['database']['login'] = "root";
-$config['database']['password'] = "vggcce";
-$config['database']['database'] = "Avernus";
+$config['database']['login'] = "avernus_user";
+$config['database']['password'] = "oayv4]rN8dZ3I*1(S^";
+$config['database']['database'] = "avernus_avernuz";
 
 /*Name of server*/
-$config['server_name'] = "Avernus";
+$config['server_name'] = "Avernuz";
 
 /*End of most important configs*/
 
@@ -38,7 +38,7 @@ $config['invalidNameTags'] = array("god", "gm", "cm", "gamemaster", "hoster", "a
 
 
 /*ID and names of worlds*/
-$config['worlds'][0] = "Test";
+$config['worlds'][0] = "Hellgate";
 
 // Enable multiworld by uncommenting this
 //$config['worlds'][1] = "Second World";
@@ -87,7 +87,7 @@ $config['commentLimit'] = 10;
 $config['layout'] = "wow";
 
 /*Title of a website*/
-$config['title'] = "Avernus Server";
+$config['title'] = "Avernuz Server";
 
 
 /*Premdays given when creating new account.*/
@@ -221,8 +221,8 @@ $config['onReady'] = array();
 if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') @define('USING_WINDOWS', 1);
 else @define('USING_WINDOWS', 0);
 
-if(USING_WINDOWS) $config['engine']['PHPversion'] = "5.3.0";
-else $config['engine']['PHPversion'] = "5.3.0";
+if(USING_WINDOWS) $config['engine']['PHPversion'] = "5.2.0";
+else $config['engine']['PHPversion'] = "5.2.0";
 $config['engine']['indexPage'] = "index.php";
 $config['engine']['uri_protocol'] = "AUTO";
 $config['engine']['charSET'] = "UTF-8";
